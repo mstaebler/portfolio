@@ -22,7 +22,7 @@ h6 {
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 .lead {
@@ -35,8 +35,9 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
-    background-size: cover;
+    /*background: url(../img/intro-bg.jpg) no-repeat center center;*/
+    background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/escheresque_ste.png");
+    /*background-size: cover;*/
 }
 
 .intro-message {
@@ -116,8 +117,9 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
-    background-size: cover;
+    /*background: url(../img/banner-bg.jpg) no-repeat center center;*/
+    background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/escheresque_ste.png");
+    /*background-size: cover;*/
 }
 
 .banner h2 {
