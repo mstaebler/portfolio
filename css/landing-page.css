@@ -168,9 +168,9 @@ p.copyright {
 }
 
 .grey-text {
-  color: grey;
+  color: grey !important;
 }
 
 .white-text {
-  color: white;
+  color: white !important;
 }
