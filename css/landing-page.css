@@ -174,3 +174,11 @@ p.copyright {
 .white-text {
   color: white !important;
 }
+
+li {
+    list-style:none;
+}
+
+ul>span {
+    text-decoration: underline;
+}

@@ -1,0 +1,74 @@
+/** Linting HTML using CSS */
+/** https://bitsofco.de/linting-html-using-css/ */
+
+/** Inline Styles */
+*[style] { 
+    border: 5px solid red;
+}
+
+/** Faulty/Missing Link Targets */
+a:not([href])  
+a:[href="#"],  
+a:[href=""],  
+a[href*="javascript:void(0)"] {
+    <!--STYLE ATTRIBUTES-->
+}
+
+/** Unaccessible Images */
+img:not([alt]) {
+    <!--STYLE ATTRIBUTES-->
+}
+img[alt=""] {
+    <!--STYLE ATTRIBUTES-->
+}
+
+/** Missing Document Language */
+html:not([lang]),  
+html[lang=""] {
+    <!--STYLE ATTRIBUTES-->
+}  
+
+/** Incorrect Character Set */
+meta[charset]:not([charset="UTF-8"]) {
+    <!--STYLE ATTRIBUTES-->
+}  
+meta[charset="UTF-8"]:not(:first-child) {
+    <!--STYLE ATTRIBUTES-->
+}
+
+/** Unaccessible Viewport Attributes */
+meta[name="viewport"][content*="user-scalable=no"],  
+meta[name="viewport"][content*="maximum-scale"],  
+meta[name="viewport"][content*="minimum-scale"] {
+    <!--STYLE ATTRIBUTES-->
+}
+
+/** Unlabelled Form Elements */
+input:not([id]),  
+select:not([id]),  
+textarea:not([id]) {
+    <!--STYLE ATTRIBUTES-->
+}
+label:not([for]) {
+    <!--STYLE ATTRIBUTES-->
+}  
+input:not([name]),  
+select:not([name]),  
+textarea:not([name]) {
+}  
+
+form:not([name]):not([id]) {
+    <!--STYLE ATTRIBUTES-->
+}  
+
+/** Empty interactive elements */
+button:empty,  
+a:empty {
+    <!--STYLE ATTRIBUTES-->
+}
+
+/** Unnecessary/Deprecated Attributes */
+script[type="text/javascript"],  
+link[rel="stylesheet"][type="text/css"]{
+    <!--STYLE ATTRIBUTES-->
+} 
