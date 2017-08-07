@@ -48,14 +48,7 @@ html {
 }
 
 body {
-    font-family: 'Poiret One', cursive;
-    /* font-family: 'Righteous', cursive;
-    font-family: 'Unica One', cursive;
-    font-family: 'Forum', cursive;
-    font-family: 'Chelsea Market', cursive; */
-    /* font-family: 'Saira Semi Condensed', sans-serif;
-    font-family: 'Rajdhani', sans-serif; */
-    font-family: 'Lekton', sans-serif;
+    font-family: 'Poiret One', cursive;   
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.8;
@@ -146,7 +139,7 @@ section:nth-of-type(6) .column:nth-of-type(2) {
 }
 
 .social-list__item-link:active,.social-list__item-link:focus,.social-list__item-link:hover {
-    color: #33f3d6
+    color: #71bdfc
 }
 
 .hero__title {
@@ -168,7 +161,7 @@ section:nth-of-type(6) .column:nth-of-type(2) {
 }
 
 .hero__link {
-    color: #33f3d6;
+    color: #71bdfc;
     transition: color .25s ease
 }
 
@@ -266,7 +259,7 @@ section:nth-of-type(6) .column:nth-of-type(2) {
 }
 
 .nav__list-item:active,.nav__list-item:focus,.nav__list-item:hover {
-    color: #33f3d6
+    color: #71bdfc
 }
 
 .logo-circle,.logo-letter,.logo-shadow,.logo-triangle {
@@ -392,7 +385,6 @@ section:nth-of-type(6) .column:nth-of-type(2) {
 .work {
     margin-top: 2em;
     padding: 4em 0;
-    /* background:#fbfbfb */
 }
 
 @media screen and (min-width: 768px) {
@@ -421,26 +413,9 @@ section:nth-of-type(6) .column:nth-of-type(2) {
 }
 
 .work__list-item {
-    transform: translateY(0);
     display: block;
     padding: 18px 5% 20px;
-    border-bottom: 1px solid #dadada;
-    box-shadow: 0 0 0 rgba(77,77,77,.16);
-    background: linear-gradient(#fbfbfb,#fbfbfb);
-    transition: all .3s ease;
-    list-style: none
-}
-
-.work__list-item .work__list-item--first {
-    border-top: 1px solid #dadada
-}
-
-.work__list-item:active,.work__list-item:focus,.work__list-item:hover {
-    transform: translateY(-3px);
-    border-color: transparent;
-    box-shadow: 0 1px 6px rgba(77,77,77,.16);
-    background: linear-gradient(90deg,#33f3d6,#3bdcc4,#33f3d6);
-    color: #fff
+     font-family: 'Rajdhani', sans-serif;   
 }
 
 .work__list-item:active .work-detail,.work__list-item:active .work-title,.work__list-item:focus .work-detail,.work__list-item:focus .work-title,.work__list-item:hover .work-detail,.work__list-item:hover .work-title {
@@ -463,7 +438,7 @@ section:nth-of-type(6) .column:nth-of-type(2) {
     -ms-flex: 3 1 100%;
     flex: 3 1 100%;
     margin-bottom: 0;
-    color: #33f3d6;
+    color: #71bdfc;
     letter-spacing: 0;
     line-height: 1.2;
     font-size: 2.6rem
@@ -474,7 +449,7 @@ section:nth-of-type(6) .column:nth-of-type(2) {
 }
 
 .work-detail {
-    color: #666;
+    color: #bbbfc1;
     letter-spacing: .5px;
     font-size: 1.6rem;
     font-weight: 300
