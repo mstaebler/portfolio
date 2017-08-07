@@ -48,7 +48,14 @@ html {
 }
 
 body {
-    font-family: Work Sans,Helvetica,Arial,sans-serif;
+    font-family: 'Poiret One', cursive;
+    /* font-family: 'Righteous', cursive;
+    font-family: 'Unica One', cursive;
+    font-family: 'Forum', cursive;
+    font-family: 'Chelsea Market', cursive; */
+    /* font-family: 'Saira Semi Condensed', sans-serif;
+    font-family: 'Rajdhani', sans-serif; */
+    font-family: 'Lekton', sans-serif;
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.8;
